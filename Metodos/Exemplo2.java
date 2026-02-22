@@ -1,4 +1,4 @@
-/*
+
 import javax.swing.JOptionPane;
 
 public class Exemplo2 {
@@ -24,4 +24,4 @@ public class Exemplo2 {
                 "Quantidade de caracteres: " + t);
     }
 }
-*/
+

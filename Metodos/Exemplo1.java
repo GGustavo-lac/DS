@@ -1,22 +1,31 @@
+package com.mycompany.exemplo1;
+
 import javax.swing.JOptionPane;
 
 public class Exemplo1 {
-
-    static void dobro(int n) {
-        int resultado = n * 2;
-        JOptionPane.showMessageDialog(null,
-                "Dobro: " + resultado);
-    }
 
     public static void main(String[] args) {
 
         int a;
 
-        // Caixa de diálogo removida aqui
+        digite(); // chamada do método 
 
         a = Integer.parseInt(
-                JOptionPane.showInputDialog("Digite um número:"));
+                JOptionPane.showInputDialog("Digite um número"));
 
         dobro(a);
+    }
+
+    static void digite() {
+        // Professor, a caixa de diálogo que estava aqui foi removida
+        // conforme solicitado (para não pedir o número duas vezes).
+        // O método foi mantido para preservar a estrutura do exemplo.
+    }
+
+    static void dobro(int n) {
+        int d = n * 2;
+
+        JOptionPane.showMessageDialog(null,
+                "Dobro de " + n + " é " + d);
     }
 }

@@ -17,7 +17,7 @@ public class Exemplo1 {
     }
 
     static void digite() {
-        // Professor, a caixa de diálogo que estava aqui foi removida
+        // a caixa de diálogo que estava aqui foi removida
         // conforme solicitado (para não pedir o número duas vezes).
         // O método foi mantido para preservar a estrutura do exemplo.
     }
